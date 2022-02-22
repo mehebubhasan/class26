@@ -1,0 +1,151 @@
+a{
+    text-decoration: none;
+
+}
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+/* solution star */
+.solution-left h3{ 
+    position: relative;
+}
+.solution-left h3::after {
+    content: "";
+    width: 49px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    background-color: blue;
+}
+.solution-left p{
+    color: rgb(70, 70, 70);
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+.solution-right {
+    text-align: right;
+}
+.solution-right img{
+    width: 200px;
+    height:100px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-left: -5px;
+    transition: .5s;
+}
+.solution-right img:hover{
+    background-color: rgb(197, 195, 195);
+}
+.solution-right img:nth-child(1){
+    border-bottom: none;
+    border-right: none;
+}
+.solution-right img:nth-child(2){
+    border-bottom: none;
+    border-right: none;
+}
+.solution-right img:nth-child(3){
+    border-bottom: none;
+}
+.solution-right img:nth-child(4){
+    border-right: none;
+}
+.solution-right img:nth-child(5){
+    border-right: none;
+}
+/* solution end */
+
+/* bLOG sTART */
+.blog-top{
+    position: relative;
+}
+.blog-top h3{
+    position: relative;
+}
+.blog-h3::after {
+    content: "";
+    width: 65px;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    left:45%;
+    background-color: blue;
+}
+.blog-top a img{
+    width: 100%; 
+    border-radius: 5px;
+}
+.blog-bottom p{
+    color: rgb(70, 70, 70);
+    font-size: 17px;
+    padding: 10px 0;
+}
+.upper-div {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background-color: blue;
+    padding: 5px;
+    width: 226px;
+    height: 44px;
+    padding-left: 8px;
+    border-radius: 50px;
+}
+.upper-div img {
+    width: 17%;
+    border-radius: 50px;
+}
+.upper-div span{
+    color: white;
+}
+
+/* bLOG END */
+
+/* footer start */
+.footer{
+    background-color: #081828;
+}
+.footer-1st a img{
+    width: 200px;
+}
+
+.footer-1st ul{
+    padding-left: 0;
+}
+.footer-1st ul li{
+    display: inline-block;
+}
+.footer-1st ul li a{
+    display: inline-block;
+    padding: 0px 10px;
+    color: white;
+}
+.footer-another h5 {
+    position: relative;
+    padding-left: 19px;
+}
+.footer-another h5::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    width: 3px;
+    height: 100%;
+    background-color: blue;
+}
+.footer-another ul{
+    padding-left: 0;
+}
+.footer-another ul li{
+    
+}
+.footer-another ul li a{
+    padding: 10px 0;
+    display: inline-block;
+    color: white;
+}
+/* footer end */
